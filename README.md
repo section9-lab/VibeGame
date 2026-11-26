@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="./assets/readme/dreamcore-hero.svg" alt="蓝紫色梦核走廊与发光门洞" width="100%" />
-</p>
 
 <p align="center">
   <img src="./resources/branding/vibegame-mark.svg" alt="VibeGame logo" width="92" />
