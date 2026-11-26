@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Dreamlike blue arcade corridor</title>
+  <desc id="desc">An empty liminal arcade corridor with blue tiled water, a glowing violet doorway, clouds, and a distant moon.</desc>
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCE8FF"/>
+      <stop offset=".54" stop-color="#A8C5FF"/>
+      <stop offset="1" stop-color="#7196EB"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="800" y1="312" x2="800" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9CC4F7"/>
+      <stop offset="1" stop-color="#446CC0"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="88" x2="0" y2="401" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C9D9FF"/>
+      <stop offset="1" stop-color="#7398E8"/>
+    </linearGradient>
+    <linearGradient id="portal" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#F4EFFF"/>
+      <stop offset=".43" stop-color="#C7B3FF"/>
+      <stop offset="1" stop-color="#7056DB"/>
+    </linearGradient>
+    <filter id="glow" x="-90%" y="-60%" width="280%" height="220%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <pattern id="tiles" width="92" height="50" patternUnits="userSpaceOnUse" patternTransform="skewX(-28) scale(1 .68)">
+      <path d="M0 0H92V50H0z" fill="none" stroke="#D8E9FF" stroke-opacity=".38" stroke-width="2"/>
+    </pattern>
+    <pattern id="noise" width="17" height="17" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r="1" fill="#fff" fill-opacity=".24"/>
+      <circle cx="11" cy="8" r=".75" fill="#254B9C" fill-opacity=".20"/>
+      <circle cx="6" cy="15" r=".5" fill="#fff" fill-opacity=".32"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="560" fill="url(#sky)"/>
+  <circle cx="1274" cy="101" r="70" fill="#FFFBD8" fill-opacity=".86"/>
+  <circle cx="1274" cy="101" r="93" fill="#FFF8CC" fill-opacity=".23" filter="url(#soft)"/>
+  <path d="M0 156C136 121 214 177 354 144C466 117 537 80 679 131C819 181 932 151 1024 124C1160 84 1337 158 1600 107V0H0Z" fill="#EAF1FF" fill-opacity=".56"/>
+  <path d="M0 186C166 140 276 220 431 182C546 154 595 134 708 178C869 241 1032 151 1162 161C1319 173 1434 117 1600 156V46H0Z" fill="#CBDCFF" fill-opacity=".42"/>
+  <path d="M0 88H462L646 312H0Z" fill="url(#wall)"/>
+  <path d="M1600 88H1138L954 312H1600Z" fill="url(#wall)"/>
+  <path d="M0 88H462L474 110H0Z" fill="#F0F5FF" fill-opacity=".75"/>
+  <path d="M1600 88H1138L1126 110H1600Z" fill="#F0F5FF" fill-opacity=".75"/>
+  <path d="M125 136H388L510 312H240Z" fill="#A7C4F5" fill-opacity=".40"/>
+  <path d="M1475 136H1212L1090 312H1360Z" fill="#A7C4F5" fill-opacity=".40"/>
+  <g fill="#F6FAFF" fill-opacity=".86" filter="url(#soft)">
+    <path d="M191 111c18-31 69-28 81 1c35-16 67 8 59 35H151c-7-20 13-37 40-36Z"/>
+    <path d="M1315 190c16-29 61-25 72 1c30-14 58 7 52 30h-162c-5-18 12-32 38-31Z"/>
+  </g>
+  <path d="M617 311V113C617 88 637 68 662 68H938C963 68 983 88 983 113V311Z" fill="#4267C5" fill-opacity=".55"/>
+  <rect x="661" y="100" width="278" height="212" rx="27" fill="#684FD0" fill-opacity=".35" filter="url(#glow)"/>
+  <rect x="669" y="94" width="262" height="224" rx="26" fill="#3455AA" stroke="#F6F3FF" stroke-opacity=".76" stroke-width="7"/>
+  <rect x="692" y="120" width="216" height="198" rx="18" fill="url(#portal)"/>
+  <path d="M723 302C751 226 785 234 813 178C843 121 870 141 888 105V305H723Z" fill="#FFF" fill-opacity=".24"/>
+  <circle cx="760" cy="178" r="16" fill="#FFF" fill-opacity=".45"/>
+  <circle cx="834" cy="143" r="7" fill="#FFF" fill-opacity=".72"/>
+  <path d="M0 312H1600V560H0Z" fill="url(#floor)"/>
+  <path d="M0 312H1600V560H0Z" fill="url(#tiles)"/>
+  <path d="M0 312H1600" stroke="#F7FBFF" stroke-opacity=".72" stroke-width="4"/>
+  <path d="M487 312L349 560M1113 312L1251 560" stroke="#EAF4FF" stroke-opacity=".68" stroke-width="4"/>
+  <path d="M621 312L568 560M979 312L1032 560" stroke="#EAF4FF" stroke-opacity=".5" stroke-width="3"/>
+  <ellipse cx="800" cy="430" rx="212" ry="36" fill="#B9CDFF" fill-opacity=".27" filter="url(#soft)"/>
+  <ellipse cx="800" cy="434" rx="151" ry="17" fill="#F1E8FF" fill-opacity=".46"/>
+  <path d="M0 0H1600V560H0Z" fill="url(#noise)" opacity=".45"/>
+  <rect x="16" y="16" width="1568" height="528" rx="22" stroke="#FFF" stroke-opacity=".52" stroke-width="2"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="704" height="704" viewBox="160 160 704 704" role="img" aria-labelledby="title desc">
+  <title id="title">VibeGame</title>
+  <desc id="desc">Deep brand-blue block with a sharp top-left corner, three large rounded corners, and two solid white circular eyes.</desc>
+  <path d="M160 160H696A168 168 0 0 1 864 328V696A168 168 0 0 1 696 864H328A168 168 0 0 1 160 696V160Z" fill="#155DFC"/>
+  <circle cx="350" cy="372" r="74" fill="#FFFFFF"/>
+  <circle cx="632" cy="372" r="74" fill="#FFFFFF"/>
+</svg>

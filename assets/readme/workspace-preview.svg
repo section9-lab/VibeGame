@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">VibeGame workspace</title>
+  <desc id="desc">A VibeGame workspace with a conversational build log on the left and a neon 3D runner preview on the right.</desc>
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F9FAFB"/><stop offset="1" stop-color="#EEF1F5"/></linearGradient>
+    <linearGradient id="game" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#111939"/><stop offset=".52" stop-color="#352365"/><stop offset="1" stop-color="#091020"/></linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#191F42"/><stop offset="1" stop-color="#080B19"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="1600" height="900" rx="32" fill="url(#chrome)"/>
+  <rect x="1" y="1" width="1598" height="898" rx="31" stroke="#D2D8E3" stroke-width="2"/>
+  <path d="M1 75H1599" stroke="#D7DCE5" stroke-width="2"/>
+  <circle cx="38" cy="38" r="8" fill="#FF5F57"/><circle cx="66" cy="38" r="8" fill="#FEBC2E"/><circle cx="94" cy="38" r="8" fill="#28C840"/>
+  <text x="800" y="45" text-anchor="middle" fill="#4B5563" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="600">VibeGame · 霓虹屋顶跑酷</text>
+  <rect x="24" y="96" width="74" height="780" rx="18" fill="#F4F6F9" stroke="#E2E7EF"/>
+  <path d="M43 128H77V162H43Z" fill="#155DFC"/><circle cx="54" cy="140" r="6" fill="#fff"/><circle cx="67" cy="140" r="6" fill="#fff"/>
+  <circle cx="61" cy="209" r="18" fill="#E5ECFF"/><path d="M53 210h16M61 202v16" stroke="#155DFC" stroke-width="2.5" stroke-linecap="round"/>
+  <g fill="#64748B"><rect x="51" y="266" width="20" height="20" rx="6"/><rect x="51" y="306" width="20" height="20" rx="6" opacity=".55"/><rect x="51" y="346" width="20" height="20" rx="6" opacity=".3"/></g>
+  <circle cx="61" cy="829" r="18" fill="#E5E7EB"/><path d="M61 819v20M51 829h20" stroke="#64748B" stroke-width="2.5"/>
+  <rect x="118" y="96" width="721" height="780" rx="18" fill="#FFF" stroke="#E2E7EF"/>
+  <path d="M118 152H839" stroke="#E8ECF1" stroke-width="2"/>
+  <rect x="142" y="113" width="30" height="30" rx="8" fill="#155DFC"/><circle cx="153" cy="125" r="5" fill="#fff"/><circle cx="164" cy="125" r="5" fill="#fff"/>
+  <text x="184" y="133" fill="#1F2937" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="600">霓虹屋顶跑酷</text>
+  <rect x="688" y="113" width="126" height="30" rx="8" fill="#F3F4F6"/><text x="751" y="133" text-anchor="middle" fill="#9CA3AF" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">发布 · 即将开放</text>
+  <rect x="144" y="178" width="445" height="66" rx="12" fill="#EFF5FF"/><text x="164" y="205" fill="#344B72" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14">我要做一个 3D 跑酷游戏，帮我设计一下。</text><text x="164" y="227" fill="#6980A7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">刚刚</text>
+  <rect x="144" y="266" width="632" height="192" rx="14" fill="#F8FAFC" stroke="#E5E7EB"/>
+  <circle cx="171" cy="293" r="14" fill="#155DFC"/><circle cx="166" cy="291" r="4" fill="#fff"/><circle cx="176" cy="291" r="4" fill="#fff"/>
+  <text x="196" y="298" fill="#172033" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="600">游戏方案：霓虹峡谷</text>
+  <text x="164" y="328" fill="#526176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13">• 三车道无限跑酷，速度会随距离平滑提升</text>
+  <text x="164" y="354" fill="#526176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13">• 跳跃、滑铲和变道，配合能量环连击计分</text>
+  <text x="164" y="380" fill="#526176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13">• 碰撞反馈、最佳成绩和快捷重开均已加入</text>
+  <rect x="164" y="404" width="154" height="30" rx="7" fill="#E9F0FF"/><text x="241" y="424" text-anchor="middle" fill="#155DFC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600">查看生成的 game.ts</text>
+  <rect x="144" y="480" width="560" height="155" rx="14" fill="#101827"/>
+  <circle cx="168" cy="506" r="5" fill="#FF8A79"/><circle cx="184" cy="506" r="5" fill="#FFE075"/><circle cx="200" cy="506" r="5" fill="#72D7A5"/>
+  <text x="166" y="540" fill="#9ED9FF" font-family="SFMono-Regular,Consolas,monospace" font-size="13">const LANES = [-2.2, 0, 2.2];</text>
+  <text x="166" y="565" fill="#D8DEE9" font-family="SFMono-Regular,Consolas,monospace" font-size="13">export function setup(ctx) {</text>
+  <text x="184" y="590" fill="#C3E88D" font-family="SFMono-Regular,Consolas,monospace" font-size="13">createNeonCanyon(ctx.scene);</text>
+  <text x="166" y="615" fill="#D8DEE9" font-family="SFMono-Regular,Consolas,monospace" font-size="13">}</text>
+  <rect x="144" y="704" width="670" height="128" rx="14" fill="#FFF" stroke="#DCE2EB" stroke-width="2"/>
+  <text x="168" y="747" fill="#9AA6B8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14">描述你想做的游戏，Enter 发送</text>
+  <circle cx="780" cy="800" r="17" fill="#155DFC"/><path d="M773 800h14M781 793l7 7-7 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="861" y="96" width="715" height="780" rx="18" fill="#FFF" stroke="#E2E7EF"/>
+  <path d="M861 152H1576" stroke="#E8ECF1" stroke-width="2"/>
+  <text x="891" y="132" fill="#1F2937" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="600">游戏预览</text>
+  <rect x="1356" y="112" width="70" height="30" rx="15" fill="#E6F7EF"/><text x="1391" y="132" text-anchor="middle" fill="#1A9B60" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700">WebGPU</text>
+  <rect x="1440" y="112" width="112" height="30" rx="8" fill="#155DFC"/><text x="1496" y="132" text-anchor="middle" fill="#FFF" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700">↻ 重新运行</text>
+  <rect x="881" y="172" width="675" height="638" rx="12" fill="url(#game)"/>
+  <circle cx="1439" cy="247" r="46" fill="#EFDBFF" fill-opacity=".78"/><circle cx="1439" cy="247" r="69" fill="#B896FF" fill-opacity=".26" filter="url(#glow)"/>
+  <path d="M881 502L1556 502V810H881Z" fill="url(#road)"/>
+  <path d="M1218 502L1018 810M1218 502L1418 810" stroke="#27325F" stroke-width="5"/>
+  <path d="M1090 502L978 810M1346 502L1458 810" stroke="#00E9FF" stroke-opacity=".9" stroke-width="5" filter="url(#glow)"/>
+  <path d="M1090 502L978 810M1346 502L1458 810" stroke="#00E9FF" stroke-width="3"/>
+  <path d="M1218 502V810" stroke="#EF7BFF" stroke-width="4" stroke-dasharray="14 20"/>
+  <rect x="1190" y="610" width="57" height="90" rx="12" fill="#2DDBFF" filter="url(#glow)"/><rect x="1196" y="614" width="45" height="85" rx="10" fill="#5CE8FF"/>
+  <circle cx="1137" cy="638" r="18" stroke="#FFE36B" stroke-width="7"/><circle cx="1307" cy="585" r="15" stroke="#FFE36B" stroke-width="6"/>
+  <rect x="949" y="535" width="115" height="44" rx="10" fill="#0B122B" fill-opacity=".75"/><text x="965" y="554" fill="#D6E9FF" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">距离</text><text x="965" y="571" fill="#FFF" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="700">1,286 m</text>
+  <rect x="1374" y="535" width="150" height="44" rx="10" fill="#0B122B" fill-opacity=".75"/><text x="1390" y="554" fill="#D6E9FF" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">能量环 × 18</text><text x="1390" y="571" fill="#FFE36B" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="700">连击 +6</text>
+  <text x="1218" y="778" text-anchor="middle" fill="#CBD7FF" fill-opacity=".9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13">A / D 变道 · 空格跳跃 · S 滑铲</text>
+  <rect x="881" y="830" width="675" height="18" rx="9" fill="#EEF2F7"/><rect x="881" y="830" width="420" height="18" rx="9" fill="#155DFC" fill-opacity=".18"/>
+</svg>

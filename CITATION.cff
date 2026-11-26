@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use VibeGame in academic work, please cite it as below."
+title: "VibeGame: a conversational desktop workspace for building playable Three.js games"
+version: 0.1.0
+date-released: 2026-11-26
+authors:
+  - name: "VibeGame Contributors"
+repository-code: "https://github.com/section9-lab/VibeGame"
+url: "https://github.com/section9-lab/VibeGame"
