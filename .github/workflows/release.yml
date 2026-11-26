@@ -200,6 +200,8 @@ jobs:
           ELECTROBUN_TEAMID: ${{ secrets.ELECTROBUN_TEAMID }}
         run: |
           set -euo pipefail
+          # vite.config.ts 直接引用 .hutch/devkit；CI 里它是空的需要先生成。
+          hutch electrobun prepare
           # 主界面 dist 被 .gitignore 忽略，必须在 CI 里先构建。
           hutch scripts/build-ui.ts
           # 避免复用 runner 时把上一次的产物混进 Release。

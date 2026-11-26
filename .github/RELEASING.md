@@ -60,6 +60,7 @@ gh secret set ELECTROBUN_TEAMID --body "AB12C3D4E5"
 
 ```bash
 hutch install
+hutch electrobun prepare
 hutch scripts/build-ui.ts
 VIBEGAME_VERSION=0.2.3 hutch electrobun build --env=stable --arch=arm64
 ```
