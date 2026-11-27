@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#快速开始">快速开始</a> · <a href="#它能做什么">特点</a> · <a href="#界面预览">界面预览</a> · <a href="#引用">引用</a>
+  <a href="#下载安装macos-arm64">下载安装</a> · <a href="#快速开始">快速开始</a> · <a href="#它能做什么">特点</a> · <a href="#界面预览">界面预览</a> · <a href="#引用">引用</a>
 </p>
 
 ---
@@ -56,6 +56,44 @@ VibeGame 把这一循环留在一个窗口里：左边保留思考与修改记�
 </p>
 
 <p align="center"><sub>灵感起点：选一个类型，或从自己的游戏念头开始。</sub></p>
+
+## 下载安装（macOS arm64）
+
+当前只提供 Apple Silicon（arm64）版本，需要从 GitHub Releases 下载。应用还没有 Developer ID 签名和公证，安装脚本会自动清掉 macOS 的 quarantine 标记，避免出现“已损坏”。
+
+一键安装最新版：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/section9-lab/VibeGame/main/scripts/install-macos.sh | bash
+```
+
+脚本会：
+
+1. 从 GitHub Releases 下载最新 `macos-arm64-VibeGame.dmg`。
+2. 用 Release 里的 `SHA256SUMS.txt` 校验文件。
+3. 安装到 `/Applications`；没有写权限时回退到 `~/Applications`。
+4. 执行 `xattr -cr` 清掉 quarantine。
+5. 打开 VibeGame。
+
+安装指定版本：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/section9-lab/VibeGame/main/scripts/install-macos.sh | VIBEGAME_VERSION=0.1.0 bash
+```
+
+手动安装：
+
+1. 从 [Releases](https://github.com/section9-lab/VibeGame/releases) 下载 `macos-arm64-VibeGame.dmg`。
+2. 把 `VibeGame.app` 拖到 `Applications`。
+3. 如果打开时提示“已损坏”，执行：
+
+```bash
+xattr -cr /Applications/VibeGame.app
+```
+
+然后重新打开。安装在 `~/Applications` 时把路径换成对应位置。
+
+安装脚本在 [`scripts/install-macos.sh`](./scripts/install-macos.sh)，可以先阅读再执行。当前没有付费 Apple Developer Program，因此没有 Developer ID 签名/公证；这是免费分发方案。
 
 ## 快速开始
 
